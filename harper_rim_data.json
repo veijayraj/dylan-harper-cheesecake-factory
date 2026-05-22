@@ -1,0 +1,1028 @@
+{
+  "meta": {
+    "season": "2025-26",
+    "season_type": "Playoffs",
+    "min_mpg": 20,
+    "min_gp": 3,
+    "x_axis": "ra_fga_per36",
+    "y_axis": "ra_fg_pct",
+    "description": "Restricted Area FGA per 36 min vs RA FG% for qualifying playoff players"
+  },
+  "harper": {
+    "player": "Dylan Harper",
+    "ra_fga": 66.0,
+    "ra_fgm": 45.0,
+    "ra_fg_pct": 0.682,
+    "ra_fga_per36": 7.343192248852627,
+    "gp": 12,
+    "min_total": 323.565,
+    "mpg": 26.96375
+  },
+  "harper_rank_ra_fga_per36": 5,
+  "players": [
+    {
+      "player": "Jalen Williams",
+      "ra_fga": 21.0,
+      "ra_fgm": 14.0,
+      "ra_fg_pct": 0.667,
+      "ra_fga_per36": 8.434362216437338,
+      "gp": 3,
+      "min_total": 89.63333333333334,
+      "mpg": 29.87777777777778
+    },
+    {
+      "player": "Collin Murray-Boyles",
+      "ra_fga": 42.0,
+      "ra_fgm": 31.0,
+      "ra_fg_pct": 0.738,
+      "ra_fga_per36": 7.924182207276062,
+      "gp": 7,
+      "min_total": 190.80833333333334,
+      "mpg": 27.258333333333333
+    },
+    {
+      "player": "Robert Williams III",
+      "ra_fga": 23.0,
+      "ra_fgm": 17.0,
+      "ra_fg_pct": 0.739,
+      "ra_fga_per36": 7.646135377227814,
+      "gp": 5,
+      "min_total": 108.29,
+      "mpg": 21.658
+    },
+    {
+      "player": "Victor Wembanyama",
+      "ra_fga": 71.0,
+      "ra_fgm": 55.0,
+      "ra_fg_pct": 0.775,
+      "ra_fga_per36": 7.5991516857273105,
+      "gp": 11,
+      "min_total": 336.35333333333335,
+      "mpg": 30.577575757575758
+    },
+    {
+      "player": "Dylan Harper",
+      "ra_fga": 66.0,
+      "ra_fgm": 45.0,
+      "ra_fg_pct": 0.682,
+      "ra_fga_per36": 7.343192248852627,
+      "gp": 12,
+      "min_total": 323.565,
+      "mpg": 26.96375
+    },
+    {
+      "player": "Terrence Shannon Jr.",
+      "ra_fga": 39.0,
+      "ra_fgm": 23.0,
+      "ra_fg_pct": 0.59,
+      "ra_fga_per36": 6.916937629323087,
+      "gp": 9,
+      "min_total": 202.98,
+      "mpg": 22.55333333333333
+    },
+    {
+      "player": "Jalen Duren",
+      "ra_fga": 73.0,
+      "ra_fgm": 48.0,
+      "ra_fg_pct": 0.658,
+      "ra_fga_per36": 6.221910056939474,
+      "gp": 14,
+      "min_total": 422.37833333333333,
+      "mpg": 30.169880952380954
+    },
+    {
+      "player": "Franz Wagner",
+      "ra_fga": 21.0,
+      "ra_fgm": 13.0,
+      "ra_fg_pct": 0.619,
+      "ra_fga_per36": 6.210295728368017,
+      "gp": 4,
+      "min_total": 121.73333333333333,
+      "mpg": 30.433333333333334
+    },
+    {
+      "player": "Alperen Sengun",
+      "ra_fga": 40.0,
+      "ra_fgm": 29.0,
+      "ra_fg_pct": 0.725,
+      "ra_fga_per36": 6.208100709189282,
+      "gp": 6,
+      "min_total": 231.955,
+      "mpg": 38.65916666666667
+    },
+    {
+      "player": "Deni Avdija",
+      "ra_fga": 30.0,
+      "ra_fgm": 20.0,
+      "ra_fg_pct": 0.667,
+      "ra_fga_per36": 6.192068800764453,
+      "gp": 5,
+      "min_total": 174.41666666666666,
+      "mpg": 34.88333333333333
+    },
+    {
+      "player": "Deandre Ayton",
+      "ra_fga": 48.0,
+      "ra_fgm": 29.0,
+      "ra_fg_pct": 0.604,
+      "ra_fga_per36": 6.073315603875488,
+      "gp": 10,
+      "min_total": 284.5233333333333,
+      "mpg": 28.452333333333332
+    },
+    {
+      "player": "Donovan Clingan",
+      "ra_fga": 18.0,
+      "ra_fgm": 8.0,
+      "ra_fg_pct": 0.444,
+      "ra_fga_per36": 6.062968796294853,
+      "gp": 5,
+      "min_total": 106.87833333333333,
+      "mpg": 21.375666666666667
+    },
+    {
+      "player": "RJ Barrett",
+      "ra_fga": 45.0,
+      "ra_fgm": 30.0,
+      "ra_fg_pct": 0.667,
+      "ra_fga_per36": 5.979367491187815,
+      "gp": 7,
+      "min_total": 270.9316666666667,
+      "mpg": 38.70452380952381
+    },
+    {
+      "player": "Karl-Anthony Towns",
+      "ra_fga": 54.0,
+      "ra_fgm": 37.0,
+      "ra_fg_pct": 0.685,
+      "ra_fga_per36": 5.9780129667119395,
+      "gp": 11,
+      "min_total": 325.19166666666666,
+      "mpg": 29.562878787878788
+    },
+    {
+      "player": "Jerami Grant",
+      "ra_fga": 18.0,
+      "ra_fgm": 7.0,
+      "ra_fg_pct": 0.389,
+      "ra_fga_per36": 5.800647500261089,
+      "gp": 5,
+      "min_total": 111.71166666666667,
+      "mpg": 22.342333333333336
+    },
+    {
+      "player": "Jalen Brunson",
+      "ra_fga": 63.0,
+      "ra_fgm": 37.0,
+      "ra_fg_pct": 0.587,
+      "ra_fga_per36": 5.760853459771818,
+      "gp": 11,
+      "min_total": 393.69166666666666,
+      "mpg": 35.790151515151514
+    },
+    {
+      "player": "Jalen Johnson",
+      "ra_fga": 33.0,
+      "ra_fgm": 22.0,
+      "ra_fg_pct": 0.667,
+      "ra_fga_per36": 5.541389389887431,
+      "gp": 6,
+      "min_total": 214.38666666666666,
+      "mpg": 35.73111111111111
+    },
+    {
+      "player": "Anthony Edwards",
+      "ra_fga": 49.0,
+      "ra_fgm": 30.0,
+      "ra_fg_pct": 0.612,
+      "ra_fga_per36": 5.438150289017341,
+      "gp": 10,
+      "min_total": 324.375,
+      "mpg": 32.4375
+    },
+    {
+      "player": "Rudy Gobert",
+      "ra_fga": 56.0,
+      "ra_fgm": 30.0,
+      "ra_fg_pct": 0.536,
+      "ra_fga_per36": 5.42219711945778,
+      "gp": 12,
+      "min_total": 371.805,
+      "mpg": 30.98375
+    },
+    {
+      "player": "Julius Randle",
+      "ra_fga": 59.0,
+      "ra_fgm": 35.0,
+      "ra_fg_pct": 0.593,
+      "ra_fga_per36": 5.312169135730424,
+      "gp": 12,
+      "min_total": 399.83666666666664,
+      "mpg": 33.31972222222222
+    },
+    {
+      "player": "Jarrett Allen",
+      "ra_fga": 64.0,
+      "ra_fgm": 45.0,
+      "ra_fg_pct": 0.703,
+      "ra_fga_per36": 5.2505640254324195,
+      "gp": 15,
+      "min_total": 438.81,
+      "mpg": 29.254
+    },
+    {
+      "player": "OG Anunoby",
+      "ra_fga": 46.0,
+      "ra_fgm": 33.0,
+      "ra_fg_pct": 0.717,
+      "ra_fga_per36": 5.237688585254768,
+      "gp": 9,
+      "min_total": 316.17,
+      "mpg": 35.13
+    },
+    {
+      "player": "Scottie Barnes",
+      "ra_fga": 39.0,
+      "ra_fgm": 25.0,
+      "ra_fg_pct": 0.641,
+      "ra_fga_per36": 5.141381898966719,
+      "gp": 7,
+      "min_total": 273.0783333333333,
+      "mpg": 39.01119047619047
+    },
+    {
+      "player": "LeBron James",
+      "ra_fga": 54.0,
+      "ra_fgm": 38.0,
+      "ra_fg_pct": 0.704,
+      "ra_fga_per36": 5.064786188209957,
+      "gp": 10,
+      "min_total": 383.82666666666665,
+      "mpg": 38.382666666666665
+    },
+    {
+      "player": "Ayo Dosunmu",
+      "ra_fga": 41.0,
+      "ra_fgm": 30.0,
+      "ra_fg_pct": 0.732,
+      "ra_fga_per36": 5.0566128231041985,
+      "gp": 10,
+      "min_total": 291.895,
+      "mpg": 29.1895
+    },
+    {
+      "player": "Neemias Queta",
+      "ra_fga": 21.0,
+      "ra_fgm": 17.0,
+      "ra_fg_pct": 0.81,
+      "ra_fga_per36": 4.972212174027426,
+      "gp": 7,
+      "min_total": 152.045,
+      "mpg": 21.720714285714283
+    },
+    {
+      "player": "Amen Thompson",
+      "ra_fga": 35.0,
+      "ra_fgm": 22.0,
+      "ra_fg_pct": 0.629,
+      "ra_fga_per36": 4.764575757384778,
+      "gp": 6,
+      "min_total": 264.45166666666665,
+      "mpg": 44.07527777777778
+    },
+    {
+      "player": "Donovan Mitchell",
+      "ra_fga": 71.0,
+      "ra_fgm": 42.0,
+      "ra_fg_pct": 0.592,
+      "ra_fga_per36": 4.699004494939745,
+      "gp": 15,
+      "min_total": 543.945,
+      "mpg": 36.263000000000005
+    },
+    {
+      "player": "Stephon Castle",
+      "ra_fga": 51.0,
+      "ra_fgm": 38.0,
+      "ra_fg_pct": 0.745,
+      "ra_fga_per36": 4.607450719600487,
+      "gp": 12,
+      "min_total": 398.485,
+      "mpg": 33.20708333333334
+    },
+    {
+      "player": "Chet Holmgren",
+      "ra_fga": 37.0,
+      "ra_fgm": 34.0,
+      "ra_fg_pct": 0.919,
+      "ra_fga_per36": 4.567405231484921,
+      "gp": 9,
+      "min_total": 291.63166666666666,
+      "mpg": 32.40351851851852
+    },
+    {
+      "player": "Tyrese Maxey",
+      "ra_fga": 55.0,
+      "ra_fgm": 36.0,
+      "ra_fg_pct": 0.655,
+      "ra_fga_per36": 4.529285951207238,
+      "gp": 11,
+      "min_total": 437.155,
+      "mpg": 39.74136363636364
+    },
+    {
+      "player": "Ausar Thompson",
+      "ra_fga": 53.0,
+      "ra_fgm": 37.0,
+      "ra_fg_pct": 0.698,
+      "ra_fga_per36": 4.466431536564812,
+      "gp": 14,
+      "min_total": 427.18666666666667,
+      "mpg": 30.513333333333332
+    },
+    {
+      "player": "Jayson Tatum",
+      "ra_fga": 27.0,
+      "ra_fgm": 21.0,
+      "ra_fg_pct": 0.778,
+      "ra_fga_per36": 4.457079970652972,
+      "gp": 6,
+      "min_total": 218.08,
+      "mpg": 36.34666666666667
+    },
+    {
+      "player": "Nikola Joki\u0107",
+      "ra_fga": 29.0,
+      "ra_fgm": 19.0,
+      "ra_fg_pct": 0.655,
+      "ra_fga_per36": 4.404567699836868,
+      "gp": 6,
+      "min_total": 237.02666666666667,
+      "mpg": 39.504444444444445
+    },
+    {
+      "player": "Shai Gilgeous-Alexander",
+      "ra_fga": 40.0,
+      "ra_fgm": 26.0,
+      "ra_fg_pct": 0.65,
+      "ra_fga_per36": 4.363504136238296,
+      "gp": 9,
+      "min_total": 330.01,
+      "mpg": 36.66777777777778
+    },
+    {
+      "player": "Isaiah Hartenstein",
+      "ra_fga": 26.0,
+      "ra_fgm": 19.0,
+      "ra_fg_pct": 0.731,
+      "ra_fga_per36": 4.321662177760677,
+      "gp": 9,
+      "min_total": 216.58333333333334,
+      "mpg": 24.064814814814817
+    },
+    {
+      "player": "Kelly Oubre Jr.",
+      "ra_fga": 43.0,
+      "ra_fgm": 28.0,
+      "ra_fg_pct": 0.651,
+      "ra_fga_per36": 4.255085211654755,
+      "gp": 11,
+      "min_total": 363.8,
+      "mpg": 33.07272727272727
+    },
+    {
+      "player": "Evan Mobley",
+      "ra_fga": 63.0,
+      "ra_fgm": 52.0,
+      "ra_fg_pct": 0.825,
+      "ra_fga_per36": 4.246515067826282,
+      "gp": 15,
+      "min_total": 534.085,
+      "mpg": 35.60566666666667
+    },
+    {
+      "player": "Jamal Murray",
+      "ra_fga": 28.0,
+      "ra_fgm": 15.0,
+      "ra_fg_pct": 0.536,
+      "ra_fga_per36": 4.2323303009097275,
+      "gp": 6,
+      "min_total": 238.16666666666666,
+      "mpg": 39.69444444444444
+    },
+    {
+      "player": "Oso Ighodaro",
+      "ra_fga": 15.0,
+      "ra_fgm": 9.0,
+      "ra_fg_pct": 0.6,
+      "ra_fga_per36": 4.19814193347759,
+      "gp": 4,
+      "min_total": 128.62833333333333,
+      "mpg": 32.15708333333333
+    },
+    {
+      "player": "Jonathan Kuminga",
+      "ra_fga": 18.0,
+      "ra_fgm": 16.0,
+      "ra_fg_pct": 0.889,
+      "ra_fga_per36": 4.158377719309504,
+      "gp": 6,
+      "min_total": 155.83,
+      "mpg": 25.971666666666668
+    },
+    {
+      "player": "Dyson Daniels",
+      "ra_fga": 19.0,
+      "ra_fgm": 11.0,
+      "ra_fg_pct": 0.579,
+      "ra_fga_per36": 4.127153330182323,
+      "gp": 6,
+      "min_total": 165.73166666666665,
+      "mpg": 27.62194444444444
+    },
+    {
+      "player": "Paolo Banchero",
+      "ra_fga": 31.0,
+      "ra_fgm": 16.0,
+      "ra_fg_pct": 0.516,
+      "ra_fga_per36": 4.085916524286063,
+      "gp": 7,
+      "min_total": 273.1333333333333,
+      "mpg": 39.01904761904762
+    },
+    {
+      "player": "Tari Eason",
+      "ra_fga": 22.0,
+      "ra_fgm": 18.0,
+      "ra_fg_pct": 0.818,
+      "ra_fga_per36": 4.058797905687613,
+      "gp": 6,
+      "min_total": 195.13166666666666,
+      "mpg": 32.52194444444444
+    },
+    {
+      "player": "Jaylen Brown",
+      "ra_fga": 28.0,
+      "ra_fgm": 18.0,
+      "ra_fg_pct": 0.643,
+      "ra_fga_per36": 4.050280264929047,
+      "gp": 7,
+      "min_total": 248.87166666666667,
+      "mpg": 35.55309523809524
+    },
+    {
+      "player": "Josh Hart",
+      "ra_fga": 41.0,
+      "ra_fgm": 28.0,
+      "ra_fg_pct": 0.683,
+      "ra_fga_per36": 3.985903511969863,
+      "gp": 11,
+      "min_total": 370.305,
+      "mpg": 33.66409090909091
+    },
+    {
+      "player": "Austin Reaves",
+      "ra_fga": 24.0,
+      "ra_fgm": 11.0,
+      "ra_fg_pct": 0.458,
+      "ra_fga_per36": 3.9153191392944273,
+      "gp": 6,
+      "min_total": 220.67166666666665,
+      "mpg": 36.77861111111111
+    },
+    {
+      "player": "Jaden McDaniels",
+      "ra_fga": 44.0,
+      "ra_fgm": 30.0,
+      "ra_fg_pct": 0.682,
+      "ra_fga_per36": 3.903480850189958,
+      "gp": 12,
+      "min_total": 405.7916666666667,
+      "mpg": 33.81597222222222
+    },
+    {
+      "player": "Joel Embiid",
+      "ra_fga": 25.0,
+      "ra_fgm": 16.0,
+      "ra_fg_pct": 0.64,
+      "ra_fga_per36": 3.8600102933607823,
+      "gp": 7,
+      "min_total": 233.16,
+      "mpg": 33.308571428571426
+    },
+    {
+      "player": "De'Aaron Fox",
+      "ra_fga": 39.0,
+      "ra_fgm": 22.0,
+      "ra_fg_pct": 0.564,
+      "ra_fga_per36": 3.834982837268166,
+      "gp": 11,
+      "min_total": 366.10333333333335,
+      "mpg": 33.28212121212121
+    },
+    {
+      "player": "Mikal Bridges",
+      "ra_fga": 35.0,
+      "ra_fgm": 30.0,
+      "ra_fg_pct": 0.857,
+      "ra_fga_per36": 3.7665534043464834,
+      "gp": 11,
+      "min_total": 334.5233333333333,
+      "mpg": 30.41121212121212
+    },
+    {
+      "player": "Jrue Holiday",
+      "ra_fga": 20.0,
+      "ra_fgm": 11.0,
+      "ra_fg_pct": 0.55,
+      "ra_fga_per36": 3.7586461913255316,
+      "gp": 5,
+      "min_total": 191.55833333333334,
+      "mpg": 38.31166666666667
+    },
+    {
+      "player": "Ajay Mitchell",
+      "ra_fga": 28.0,
+      "ra_fgm": 20.0,
+      "ra_fg_pct": 0.714,
+      "ra_fga_per36": 3.711066931742876,
+      "gp": 9,
+      "min_total": 271.62,
+      "mpg": 30.18
+    },
+    {
+      "player": "Naz Reid",
+      "ra_fga": 33.0,
+      "ra_fgm": 22.0,
+      "ra_fg_pct": 0.667,
+      "ra_fga_per36": 3.673961672868968,
+      "gp": 12,
+      "min_total": 323.3566666666667,
+      "mpg": 26.94638888888889
+    },
+    {
+      "player": "Dillon Brooks",
+      "ra_fga": 15.0,
+      "ra_fgm": 6.0,
+      "ra_fg_pct": 0.4,
+      "ra_fga_per36": 3.6178480503818844,
+      "gp": 4,
+      "min_total": 149.26,
+      "mpg": 37.315
+    },
+    {
+      "player": "Jalen Green",
+      "ra_fga": 15.0,
+      "ra_fgm": 9.0,
+      "ra_fg_pct": 0.6,
+      "ra_fga_per36": 3.5834761931095507,
+      "gp": 4,
+      "min_total": 150.69166666666666,
+      "mpg": 37.672916666666666
+    },
+    {
+      "player": "Wendell Carter Jr.",
+      "ra_fga": 23.0,
+      "ra_fgm": 16.0,
+      "ra_fg_pct": 0.696,
+      "ra_fga_per36": 3.498369821631023,
+      "gp": 7,
+      "min_total": 236.68166666666667,
+      "mpg": 33.81166666666667
+    },
+    {
+      "player": "Cameron Johnson",
+      "ra_fga": 18.0,
+      "ra_fgm": 15.0,
+      "ra_fg_pct": 0.833,
+      "ra_fga_per36": 3.4771099206739584,
+      "gp": 6,
+      "min_total": 186.36166666666668,
+      "mpg": 31.06027777777778
+    },
+    {
+      "player": "CJ McCollum",
+      "ra_fga": 18.0,
+      "ra_fgm": 12.0,
+      "ra_fg_pct": 0.667,
+      "ra_fga_per36": 3.3690048091503835,
+      "gp": 6,
+      "min_total": 192.34166666666667,
+      "mpg": 32.05694444444445
+    },
+    {
+      "player": "Christian Braun",
+      "ra_fga": 17.0,
+      "ra_fgm": 7.0,
+      "ra_fg_pct": 0.412,
+      "ra_fga_per36": 3.274916387959866,
+      "gp": 6,
+      "min_total": 186.875,
+      "mpg": 31.145833333333332
+    },
+    {
+      "player": "Onyeka Okongwu",
+      "ra_fga": 18.0,
+      "ra_fgm": 16.0,
+      "ra_fg_pct": 0.889,
+      "ra_fga_per36": 3.2601313108444647,
+      "gp": 6,
+      "min_total": 198.765,
+      "mpg": 33.1275
+    },
+    {
+      "player": "Cade Cunningham",
+      "ra_fga": 51.0,
+      "ra_fgm": 32.0,
+      "ra_fg_pct": 0.627,
+      "ra_fga_per36": 3.2123454846075115,
+      "gp": 14,
+      "min_total": 571.545,
+      "mpg": 40.824642857142855
+    },
+    {
+      "player": "Payton Pritchard",
+      "ra_fga": 20.0,
+      "ra_fgm": 14.0,
+      "ra_fg_pct": 0.7,
+      "ra_fga_per36": 3.1221317221591853,
+      "gp": 7,
+      "min_total": 230.61166666666668,
+      "mpg": 32.94452380952381
+    },
+    {
+      "player": "Tobias Harris",
+      "ra_fga": 42.0,
+      "ra_fgm": 28.0,
+      "ra_fg_pct": 0.667,
+      "ra_fga_per36": 3.1177507655191614,
+      "gp": 14,
+      "min_total": 484.965,
+      "mpg": 34.64035714285714
+    },
+    {
+      "player": "Alex Caruso",
+      "ra_fga": 17.0,
+      "ra_fgm": 11.0,
+      "ra_fg_pct": 0.647,
+      "ra_fga_per36": 3.046847773776531,
+      "gp": 9,
+      "min_total": 200.86333333333334,
+      "mpg": 22.31814814814815
+    },
+    {
+      "player": "VJ Edgecombe",
+      "ra_fga": 34.0,
+      "ra_fgm": 24.0,
+      "ra_fg_pct": 0.706,
+      "ra_fga_per36": 3.0049591646344456,
+      "gp": 11,
+      "min_total": 407.32666666666665,
+      "mpg": 37.02969696969697
+    },
+    {
+      "player": "Desmond Bane",
+      "ra_fga": 18.0,
+      "ra_fgm": 8.0,
+      "ra_fg_pct": 0.444,
+      "ra_fga_per36": 2.558130354111563,
+      "gp": 7,
+      "min_total": 253.31,
+      "mpg": 36.18714285714286
+    },
+    {
+      "player": "Daniss Jenkins",
+      "ra_fga": 19.0,
+      "ra_fgm": 10.0,
+      "ra_fg_pct": 0.526,
+      "ra_fga_per36": 2.1533359917728294,
+      "gp": 14,
+      "min_total": 317.64666666666665,
+      "mpg": 22.689047619047617
+    },
+    {
+      "player": "Max Strus",
+      "ra_fga": 23.0,
+      "ra_fgm": 17.0,
+      "ra_fg_pct": 0.739,
+      "ra_fga_per36": 2.0580547074687336,
+      "gp": 15,
+      "min_total": 402.32166666666666,
+      "mpg": 26.821444444444445
+    },
+    {
+      "player": "Rui Hachimura",
+      "ra_fga": 19.0,
+      "ra_fgm": 14.0,
+      "ra_fg_pct": 0.737,
+      "ra_fga_per36": 1.7706751346127296,
+      "gp": 10,
+      "min_total": 386.29333333333335,
+      "mpg": 38.629333333333335
+    },
+    {
+      "player": "James Harden",
+      "ra_fga": 18.0,
+      "ra_fgm": 14.0,
+      "ra_fg_pct": 0.778,
+      "ra_fga_per36": 1.1444651803533477,
+      "gp": 15,
+      "min_total": 566.2033333333334,
+      "mpg": 37.74688888888889
+    }
+  ],
+  "guards": [
+    {
+      "player": "Ajay Mitchell",
+      "ra_fga": 28,
+      "ra_fgm": 20,
+      "ra_fg_pct": 0.714,
+      "ra_fga_per36": 3.71
+    },
+    {
+      "player": "Alex Caruso",
+      "ra_fga": 17,
+      "ra_fgm": 11,
+      "ra_fg_pct": 0.647,
+      "ra_fga_per36": 3.05
+    },
+    {
+      "player": "Amen Thompson",
+      "ra_fga": 35,
+      "ra_fgm": 22,
+      "ra_fg_pct": 0.629,
+      "ra_fga_per36": 4.76
+    },
+    {
+      "player": "Anthony Edwards",
+      "ra_fga": 49,
+      "ra_fgm": 30,
+      "ra_fg_pct": 0.612,
+      "ra_fga_per36": 5.44
+    },
+    {
+      "player": "Ausar Thompson",
+      "ra_fga": 53,
+      "ra_fgm": 37,
+      "ra_fg_pct": 0.698,
+      "ra_fga_per36": 4.47
+    },
+    {
+      "player": "Austin Reaves",
+      "ra_fga": 24,
+      "ra_fgm": 11,
+      "ra_fg_pct": 0.458,
+      "ra_fga_per36": 3.92
+    },
+    {
+      "player": "Ayo Dosunmu",
+      "ra_fga": 41,
+      "ra_fgm": 30,
+      "ra_fg_pct": 0.732,
+      "ra_fga_per36": 5.06
+    },
+    {
+      "player": "CJ McCollum",
+      "ra_fga": 18,
+      "ra_fgm": 12,
+      "ra_fg_pct": 0.667,
+      "ra_fga_per36": 3.37
+    },
+    {
+      "player": "Cade Cunningham",
+      "ra_fga": 51,
+      "ra_fgm": 32,
+      "ra_fg_pct": 0.627,
+      "ra_fga_per36": 3.21
+    },
+    {
+      "player": "Christian Braun",
+      "ra_fga": 17,
+      "ra_fgm": 7,
+      "ra_fg_pct": 0.412,
+      "ra_fga_per36": 3.27
+    },
+    {
+      "player": "Daniss Jenkins",
+      "ra_fga": 19,
+      "ra_fgm": 10,
+      "ra_fg_pct": 0.526,
+      "ra_fga_per36": 2.15
+    },
+    {
+      "player": "De'Aaron Fox",
+      "ra_fga": 39,
+      "ra_fgm": 22,
+      "ra_fg_pct": 0.564,
+      "ra_fga_per36": 3.83
+    },
+    {
+      "player": "Desmond Bane",
+      "ra_fga": 18,
+      "ra_fgm": 8,
+      "ra_fg_pct": 0.444,
+      "ra_fga_per36": 2.56
+    },
+    {
+      "player": "Dillon Brooks",
+      "ra_fga": 15,
+      "ra_fgm": 6,
+      "ra_fg_pct": 0.4,
+      "ra_fga_per36": 3.62
+    },
+    {
+      "player": "Donovan Mitchell",
+      "ra_fga": 71,
+      "ra_fgm": 42,
+      "ra_fg_pct": 0.592,
+      "ra_fga_per36": 4.7
+    },
+    {
+      "player": "Dylan Harper",
+      "ra_fga": 66,
+      "ra_fgm": 45,
+      "ra_fg_pct": 0.682,
+      "ra_fga_per36": 7.34
+    },
+    {
+      "player": "Dyson Daniels",
+      "ra_fga": 19,
+      "ra_fgm": 11,
+      "ra_fg_pct": 0.579,
+      "ra_fga_per36": 4.13
+    },
+    {
+      "player": "Jalen Brunson",
+      "ra_fga": 63,
+      "ra_fgm": 37,
+      "ra_fg_pct": 0.587,
+      "ra_fga_per36": 5.76
+    },
+    {
+      "player": "Jalen Green",
+      "ra_fga": 15,
+      "ra_fgm": 9,
+      "ra_fg_pct": 0.6,
+      "ra_fga_per36": 3.58
+    },
+    {
+      "player": "Jalen Williams",
+      "ra_fga": 21,
+      "ra_fgm": 14,
+      "ra_fg_pct": 0.667,
+      "ra_fga_per36": 8.43
+    },
+    {
+      "player": "Jamal Murray",
+      "ra_fga": 28,
+      "ra_fgm": 15,
+      "ra_fg_pct": 0.536,
+      "ra_fga_per36": 4.23
+    },
+    {
+      "player": "James Harden",
+      "ra_fga": 18,
+      "ra_fgm": 14,
+      "ra_fg_pct": 0.778,
+      "ra_fga_per36": 1.14
+    },
+    {
+      "player": "Jaylen Brown",
+      "ra_fga": 28,
+      "ra_fgm": 18,
+      "ra_fg_pct": 0.643,
+      "ra_fga_per36": 4.05
+    },
+    {
+      "player": "Jayson Tatum",
+      "ra_fga": 27,
+      "ra_fgm": 21,
+      "ra_fg_pct": 0.778,
+      "ra_fga_per36": 4.46
+    },
+    {
+      "player": "Josh Hart",
+      "ra_fga": 41,
+      "ra_fgm": 28,
+      "ra_fg_pct": 0.683,
+      "ra_fga_per36": 3.99
+    },
+    {
+      "player": "Jrue Holiday",
+      "ra_fga": 20,
+      "ra_fgm": 11,
+      "ra_fg_pct": 0.55,
+      "ra_fga_per36": 3.76
+    },
+    {
+      "player": "Kelly Oubre Jr.",
+      "ra_fga": 43,
+      "ra_fgm": 28,
+      "ra_fg_pct": 0.651,
+      "ra_fga_per36": 4.26
+    },
+    {
+      "player": "Max Strus",
+      "ra_fga": 23,
+      "ra_fgm": 17,
+      "ra_fg_pct": 0.739,
+      "ra_fga_per36": 2.06
+    },
+    {
+      "player": "Mikal Bridges",
+      "ra_fga": 35,
+      "ra_fgm": 30,
+      "ra_fg_pct": 0.857,
+      "ra_fga_per36": 3.77
+    },
+    {
+      "player": "OG Anunoby",
+      "ra_fga": 46,
+      "ra_fgm": 33,
+      "ra_fg_pct": 0.717,
+      "ra_fga_per36": 5.24
+    },
+    {
+      "player": "Payton Pritchard",
+      "ra_fga": 20,
+      "ra_fgm": 14,
+      "ra_fg_pct": 0.7,
+      "ra_fga_per36": 3.12
+    },
+    {
+      "player": "RJ Barrett",
+      "ra_fga": 45,
+      "ra_fgm": 30,
+      "ra_fg_pct": 0.667,
+      "ra_fga_per36": 5.98
+    },
+    {
+      "player": "Scottie Barnes",
+      "ra_fga": 39,
+      "ra_fgm": 25,
+      "ra_fg_pct": 0.641,
+      "ra_fga_per36": 5.14
+    },
+    {
+      "player": "Shai Gilgeous-Alexander",
+      "ra_fga": 40,
+      "ra_fgm": 26,
+      "ra_fg_pct": 0.65,
+      "ra_fga_per36": 4.36
+    },
+    {
+      "player": "Stephon Castle",
+      "ra_fga": 51,
+      "ra_fgm": 38,
+      "ra_fg_pct": 0.745,
+      "ra_fga_per36": 4.61
+    },
+    {
+      "player": "Terrence Shannon Jr.",
+      "ra_fga": 39,
+      "ra_fgm": 23,
+      "ra_fg_pct": 0.59,
+      "ra_fga_per36": 6.92
+    },
+    {
+      "player": "Tyrese Maxey",
+      "ra_fga": 55,
+      "ra_fgm": 36,
+      "ra_fg_pct": 0.655,
+      "ra_fga_per36": 4.53
+    },
+    {
+      "player": "VJ Edgecombe",
+      "ra_fga": 34,
+      "ra_fgm": 24,
+      "ra_fg_pct": 0.706,
+      "ra_fga_per36": 3.0
+    }
+  ],
+  "kyrie_historical": [
+    {
+      "label": "Kyrie '15",
+      "season": "15",
+      "ra_fga_per36": 4.2672,
+      "ra_fg_pct": 0.5273
+    },
+    {
+      "label": "Kyrie '16",
+      "season": "16",
+      "ra_fga_per36": 4.9767,
+      "ra_fg_pct": 0.5421
+    },
+    {
+      "label": "Kyrie '17",
+      "season": "17",
+      "ra_fga_per36": 5.8899,
+      "ra_fg_pct": 0.5701
+    },
+    {
+      "label": "Kyrie '24",
+      "season": "24",
+      "ra_fga_per36": 2.5421,
+      "ra_fg_pct": 0.6129
+    }
+  ]
+}

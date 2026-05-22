@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dylan Harper — Rim Pressure Analysis</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600&family=Barlow+Condensed:wght@700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+</head>
+<body>
+
+<main class="shell">
+
+  <header class="shell-header">
+    <div class="shell-title">Dylan Harper · <span>Rim Pressure Analysis</span></div>
+  </header>
+
+  <div class="slides">
+
+    <!-- Slide 1: Hook -->
+    <div class="slide active">
+      <div class="sec-label">Dylan Harper · 2025–26 Playoffs</div>
+      <h1 class="headline">
+        Dylan Harper is putting up numbers<br>
+        that can only be compared to <span class="accent">Cheesecake Factory.</span>
+      </h1>
+      <p class="body-text">
+        This tweet made me laugh during the Thunder-Spurs game. As a Cheesecake Factory and Dylan Harper fan, I wanted to dive deeper into this comparison.
+      </p>
+      <div class="tweet-wrap">
+        <blockquote class="twitter-tweet" data-theme="light">
+          <p lang="en" dir="ltr">Dylan Harper&#39;s layup package is a Cheesecake Factory menu.</p>
+          &mdash; Rob Perez (@WorldWideWob)
+          <a href="https://twitter.com/WorldWideWob/status/2056558479859740869?ref_src=twsrc%5Etfw">May 19, 2026</a>
+        </blockquote>
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      </div>
+      <p class="attribution">
+        Stats courtesy of stats.nba.com &nbsp;·&nbsp; Playoff stats as of May 19, 2025, prior to Game 2 of OKC–SAS WCF
+      </p>
+    </div>
+
+    <!-- Slide 2: Numbers -->
+    <div class="slide">
+      <div class="sec-label">2025–26 Regular Season · Rookie Guards</div>
+      <h2 class="headline">
+        Cheesecake Factory: over <span class="accent">250 items.</span><br>
+        Harper: <span class="accent">299 rim attempts</span> in limited minutes.
+      </h2>
+      <p class="body-text" style="margin-bottom:14px;">
+        #1 in restricted area attempts per 36 among all rookie guards.
+      </p>
+      <table style="width:100%;border-collapse:collapse;font-size:13px;background:var(--parchment);border:1px solid var(--border);">
+        <thead>
+          <tr>
+            <th colspan="4" scope="colgroup" style="padding:10px 12px;text-align:left;background:var(--dark3);color:var(--sand);font-family:'Barlow Condensed',sans-serif;font-size:12px;font-weight:700;letter-spacing:0.14em;text-transform:uppercase;border-bottom:1px solid var(--border);">
+              Restricted Area &nbsp;·&nbsp; Rookie Guards &nbsp;·&nbsp; 2025–26 Regular Season
+            </th>
+          </tr>
+          <tr>
+            <th scope="col" style="padding:9px 10px;text-align:left;background:var(--dark2);color:var(--sand);font-family:'Barlow Condensed',sans-serif;font-size:10px;font-weight:600;letter-spacing:0.12em;text-transform:uppercase;border-bottom:1px solid var(--border);">Player</th>
+            <th scope="col" style="padding:9px 10px;text-align:right;background:var(--dark2);color:var(--sand);font-family:'Barlow Condensed',sans-serif;font-size:10px;font-weight:600;letter-spacing:0.12em;text-transform:uppercase;border-bottom:1px solid var(--border);">FGA</th>
+            <th scope="col" style="padding:9px 10px;text-align:right;background:var(--dark2);color:var(--sand);font-family:'Barlow Condensed',sans-serif;font-size:10px;font-weight:600;letter-spacing:0.12em;text-transform:uppercase;border-bottom:1px solid var(--border);">FGA/36</th>
+            <th scope="col" style="padding:9px 10px;text-align:right;background:var(--dark2);color:var(--sand);font-family:'Barlow Condensed',sans-serif;font-size:10px;font-weight:600;letter-spacing:0.12em;text-transform:uppercase;border-bottom:1px solid var(--border);">FG%</th>
+          </tr>
+        </thead>
+        <tbody id="raTableBody">
+          <tr style="background:rgba(139,74,51,0.08);">
+            <td style="padding:9px 10px;border-bottom:1px solid var(--border);font-weight:500;color:var(--rust);">Dylan Harper</td>
+            <td style="padding:9px 10px;border-bottom:1px solid var(--border);text-align:right;font-family:'Barlow Condensed',sans-serif;color:var(--dark);">299</td>
+            <td style="padding:9px 10px;border-bottom:1px solid var(--border);text-align:right;font-family:'Barlow Condensed',sans-serif;font-weight:600;color:var(--rust);">6.91</td>
+            <td style="padding:9px 10px;border-bottom:1px solid var(--border);text-align:right;font-family:'Barlow Condensed',sans-serif;color:var(--dark);">63.5%</td>
+          </tr>
+          <tr>
+            <td style="padding:9px 10px;border-bottom:1px solid var(--border);color:var(--dark2);">Jeremiah Fears</td>
+            <td style="padding:9px 10px;border-bottom:1px solid var(--border);text-align:right;font-family:'Barlow Condensed',sans-serif;color:var(--dark2);">399</td>
+            <td style="padding:9px 10px;border-bottom:1px solid var(--border);text-align:right;font-family:'Barlow Condensed',sans-serif;color:var(--dark2);">6.80</td>
+            <td style="padding:9px 10px;border-bottom:1px solid var(--border);text-align:right;font-family:'Barlow Condensed',sans-serif;color:var(--dark2);">57.4%</td>
+          </tr>
+          <tr>
+            <td style="padding:9px 10px;border-bottom:1px solid var(--border);color:var(--dark2);">VJ Edgecombe</td>
+            <td style="padding:9px 10px;border-bottom:1px solid var(--border);text-align:right;font-family:'Barlow Condensed',sans-serif;color:var(--dark2);">—</td>
+            <td style="padding:9px 10px;border-bottom:1px solid var(--border);text-align:right;font-family:'Barlow Condensed',sans-serif;color:var(--dark2);">—</td>
+            <td style="padding:9px 10px;border-bottom:1px solid var(--border);text-align:right;font-family:'Barlow Condensed',sans-serif;color:var(--dark2);">—</td>
+          </tr>
+          <tr>
+            <td style="padding:9px 10px;border-bottom:1px solid var(--border);color:var(--dark2);">Kon Knueppel</td>
+            <td style="padding:9px 10px;border-bottom:1px solid var(--border);text-align:right;font-family:'Barlow Condensed',sans-serif;color:var(--dark2);">—</td>
+            <td style="padding:9px 10px;border-bottom:1px solid var(--border);text-align:right;font-family:'Barlow Condensed',sans-serif;color:var(--dark2);">—</td>
+            <td style="padding:9px 10px;border-bottom:1px solid var(--border);text-align:right;font-family:'Barlow Condensed',sans-serif;color:var(--dark2);">—</td>
+          </tr>
+          <tr>
+            <td style="padding:9px 10px;color:var(--dark2);">Cedric Coward</td>
+            <td style="padding:9px 10px;text-align:right;font-family:'Barlow Condensed',sans-serif;color:var(--dark2);">—</td>
+            <td style="padding:9px 10px;text-align:right;font-family:'Barlow Condensed',sans-serif;color:var(--dark2);">—</td>
+            <td style="padding:9px 10px;text-align:right;font-family:'Barlow Condensed',sans-serif;color:var(--dark2);">—</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Slide 3: D3 scatter -->
+    <div class="slide" style="justify-content:flex-start;padding-top:12px;">
+      <div class="sec-label">All Playoff Guards · Scatter</div>
+      <h2 class="headline" style="font-size:20px;margin-bottom:10px;">
+        He takes home the cake — Harper vs every<br>playoff guard at the rim this postseason.
+      </h2>
+      <div class="chart-wrap">
+        <div class="chart-title">Restricted Area — volume vs efficiency</div>
+        <svg
+          id="rimScatter"
+          width="628"
+          height="280"
+          viewBox="0 0 628 280"
+          style="width:100%;height:280px;display:block;"
+          aria-label="Scatter plot: restricted area attempts per 36 minutes versus field goal percentage for playoff guards, 2025-26 postseason"
+          role="img"
+        ></svg>
+      </div>
+      <p class="attribution" style="margin-top:12px;">
+        Playoff stats as of May 19, 2025, prior to Game 2 of OKC–SAS WCF
+      </p>
+    </div>
+
+    <!-- Slide 4: Kyrie comparison -->
+    <div class="slide">
+      <div class="sec-label">2025–26 Playoffs · Historical · Kyrie Irving</div>
+      <h2 class="headline">
+        The Cheesecake Factory added <span class="accent">18 new items</span> this year.<br>
+        Harper is the NBA's newest addition to the list of elite guard finishers.
+      </h2>
+      <p style="font-size:13px;color:var(--dark3);margin-bottom:10px;font-family:'Barlow Condensed',sans-serif;letter-spacing:0.06em;">
+        RA FGA PER 36 MIN &nbsp;·&nbsp; FG% ON RIGHT
+      </p>
+      <div id="kyrieBars"></div>
+      <div class="comp-legend">
+        <div><span style="background:var(--dark)"></span>Harper '26 (Playoffs)</div>
+        <div><span style="background:var(--gold)"></span>Kyrie (playoffs)</div>
+      </div>
+      <p class="attribution" style="margin-top:16px;">
+        Playoff stats as of May 19, 2025, prior to Game 2 of OKC–SAS WCF
+      </p>
+    </div>
+
+    <!-- Slide 5: Drives -->
+    <div class="slide">
+      <div class="sec-label">Self-created looks · Top Rookies · 2025–26 Regular Season</div>
+      <h2 class="headline">
+        Most of the Cheesecake Factory menu is made <span class="accent">from scratch.</span>
+      </h2>
+      <p class="body-text" style="margin-bottom:14px;">
+        Harper is cooking from scratch. Scoring on his own drives more efficiently than any other rookie guard.
+      </p>
+      <table style="width:100%;border-collapse:collapse;font-size:13px;background:var(--parchment);border:1px solid var(--border);">
+        <thead>
+          <tr>
+            <th colspan="4" scope="colgroup" style="padding:10px 12px;text-align:left;background:var(--dark3);color:var(--sand);font-family:'Barlow Condensed',sans-serif;font-size:12px;font-weight:700;letter-spacing:0.14em;text-transform:uppercase;border-bottom:1px solid var(--border);">
+              Drives · Rookie Guards &nbsp;·&nbsp; 2025–26 Regular Season
+            </th>
+          </tr>
+          <tr>
+            <th scope="col" style="padding:9px 10px;text-align:left;background:var(--dark2);color:var(--sand);font-family:'Barlow Condensed',sans-serif;font-size:10px;font-weight:600;letter-spacing:0.12em;text-transform:uppercase;border-bottom:1px solid var(--border);">Player</th>
+            <th scope="col" style="padding:9px 10px;text-align:right;background:var(--dark2);color:var(--sand);font-family:'Barlow Condensed',sans-serif;font-size:10px;font-weight:600;letter-spacing:0.12em;text-transform:uppercase;border-bottom:1px solid var(--border);">Drives/36</th>
+            <th scope="col" style="padding:9px 10px;text-align:right;background:var(--dark2);color:var(--sand);font-family:'Barlow Condensed',sans-serif;font-size:10px;font-weight:600;letter-spacing:0.12em;text-transform:uppercase;border-bottom:1px solid var(--border);">Drive Pts/36</th>
+            <th scope="col" style="padding:9px 10px;text-align:right;background:var(--dark2);color:var(--gold);font-family:'Barlow Condensed',sans-serif;font-size:10px;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;border-bottom:1px solid var(--border);">Drive FG% ↓</th>
+          </tr>
+        </thead>
+        <tbody id="drivesTableBody">
+          <tr style="background:rgba(139,74,51,0.08);">
+            <td style="padding:9px 10px;border-bottom:1px solid var(--border);font-weight:500;color:var(--rust);">Dylan Harper</td>
+            <td style="padding:9px 10px;border-bottom:1px solid var(--border);text-align:right;font-family:'Barlow Condensed',sans-serif;color:var(--dark);">13.8</td>
+            <td style="padding:9px 10px;border-bottom:1px solid var(--border);text-align:right;font-family:'Barlow Condensed',sans-serif;color:var(--dark);">8.0</td>
+            <td style="padding:9px 10px;border-bottom:1px solid var(--border);text-align:right;font-family:'Barlow Condensed',sans-serif;font-weight:600;color:var(--rust);">55.4%</td>
+          </tr>
+          <tr>
+            <td style="padding:9px 10px;border-bottom:1px solid var(--border);color:var(--dark2);">Kon Knueppel</td>
+            <td style="padding:9px 10px;border-bottom:1px solid var(--border);text-align:right;font-family:'Barlow Condensed',sans-serif;color:var(--dark2);">9.6</td>
+            <td style="padding:9px 10px;border-bottom:1px solid var(--border);text-align:right;font-family:'Barlow Condensed',sans-serif;color:var(--dark2);">5.0</td>
+            <td style="padding:9px 10px;border-bottom:1px solid var(--border);text-align:right;font-family:'Barlow Condensed',sans-serif;color:var(--dark2);">54.4%</td>
+          </tr>
+          <tr>
+            <td style="padding:9px 10px;border-bottom:1px solid var(--border);color:var(--dark2);">Cedric Coward</td>
+            <td style="padding:9px 10px;border-bottom:1px solid var(--border);text-align:right;font-family:'Barlow Condensed',sans-serif;color:var(--dark2);">7.3</td>
+            <td style="padding:9px 10px;border-bottom:1px solid var(--border);text-align:right;font-family:'Barlow Condensed',sans-serif;color:var(--dark2);">4.9</td>
+            <td style="padding:9px 10px;border-bottom:1px solid var(--border);text-align:right;font-family:'Barlow Condensed',sans-serif;color:var(--dark2);">48.6%</td>
+          </tr>
+          <tr>
+            <td style="padding:9px 10px;border-bottom:1px solid var(--border);color:var(--dark2);">Jeremiah Fears</td>
+            <td style="padding:9px 10px;border-bottom:1px solid var(--border);text-align:right;font-family:'Barlow Condensed',sans-serif;color:var(--dark2);">14.0</td>
+            <td style="padding:9px 10px;border-bottom:1px solid var(--border);text-align:right;font-family:'Barlow Condensed',sans-serif;color:var(--dark2);">7.3</td>
+            <td style="padding:9px 10px;border-bottom:1px solid var(--border);text-align:right;font-family:'Barlow Condensed',sans-serif;color:var(--dark2);">45.7%</td>
+          </tr>
+          <tr>
+            <td style="padding:9px 10px;color:var(--dark2);">VJ Edgecombe</td>
+            <td style="padding:9px 10px;text-align:right;font-family:'Barlow Condensed',sans-serif;color:var(--dark2);">7.3</td>
+            <td style="padding:9px 10px;text-align:right;font-family:'Barlow Condensed',sans-serif;color:var(--dark2);">4.1</td>
+            <td style="padding:9px 10px;text-align:right;font-family:'Barlow Condensed',sans-serif;color:var(--dark2);">40.8%</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Slide 6: Closer -->
+    <div class="slide">
+      <div class="sec-label">For context</div>
+      <h2 class="headline">
+        The Cheesecake Factory has been<br>
+        perfecting its menu since <span class="accent">1978.</span>
+      </h2>
+      <p class="body-text" style="max-width:460px;">
+        Harper has been in the league since October.
+      </p>
+
+      <div class="metrics" style="max-width:400px;">
+        <div class="metric">
+          <div class="metric-label">Cheesecake Factory age</div>
+          <div class="metric-value accent">48 yrs</div>
+          <div class="metric-sub">Founded 1978</div>
+        </div>
+        <div class="metric">
+          <div class="metric-label">Dylan Harper age</div>
+          <div class="metric-value">20 yrs</div>
+          <div class="metric-sub">Rookie season</div>
+        </div>
+      </div>
+
+      <div class="closer-links">
+        <div>𝕏 &nbsp;<a href="https://twitter.com/veijayraj">@veijayraj</a></div>
+        <div class="site-link">veijayraj.github.io/basketball-portfolio</div>
+      </div>
+    </div>
+
+  </div>
+
+  <nav class="nav" aria-label="Slide navigation">
+    <button class="nav-btn" id="prevBtn" aria-label="Previous slide" onclick="go(-1)" disabled>← Prev</button>
+    <div class="dots" id="dots" role="list" aria-label="Slide indicators"></div>
+    <span class="slide-count" id="slideCount" aria-live="polite" aria-atomic="true">1 / 6</span>
+    <button class="nav-btn" id="nextBtn" aria-label="Next slide" onclick="go(1)">Next →</button>
+  </nav>
+
+</main>
+
+<script src="main.js"></script>
+</body>
+</html>

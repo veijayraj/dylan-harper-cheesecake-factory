@@ -1,0 +1,80 @@
+[
+  {
+    "name": "Dylan Harper",
+    "minutes": 1558,
+    "ra_fga": 299,
+    "ra_fgm": 190,
+    "ra_fg_pct": 0.635,
+    "ra_fga_36": 6.91,
+    "drives": 598,
+    "drive_pts": 346,
+    "drive_fg_pct": 0.554,
+    "drives_36": 13.8,
+    "drive_pts_36": 8.0
+  },
+  {
+    "name": "Jeremiah Fears",
+    "minutes": 2112,
+    "ra_fga": 399,
+    "ra_fgm": 229,
+    "ra_fg_pct": 0.574,
+    "ra_fga_36": 6.8,
+    "drives": 819,
+    "drive_pts": 430,
+    "drive_fg_pct": 0.457,
+    "drives_36": 14.0,
+    "drive_pts_36": 7.3
+  },
+  {
+    "name": "Kon Knueppel",
+    "minutes": 2551,
+    "ra_fga": 193,
+    "ra_fgm": 125,
+    "ra_fg_pct": 0.648,
+    "ra_fga_36": 2.72,
+    "drives": 681,
+    "drive_pts": 354,
+    "drive_fg_pct": 0.544,
+    "drives_36": 9.6,
+    "drive_pts_36": 5.0
+  },
+  {
+    "name": "Cedric Coward",
+    "minutes": 1598,
+    "ra_fga": 177,
+    "ra_fgm": 129,
+    "ra_fg_pct": 0.729,
+    "ra_fga_36": 3.99,
+    "drives": 326,
+    "drive_pts": 218,
+    "drive_fg_pct": 0.486,
+    "drives_36": 7.3,
+    "drive_pts_36": 4.9
+  },
+  {
+    "name": "VJ Edgecombe",
+    "minutes": 2623,
+    "ra_fga": 276,
+    "ra_fgm": 168,
+    "ra_fg_pct": 0.609,
+    "ra_fga_36": 3.79,
+    "drives": 534,
+    "drive_pts": 297,
+    "drive_fg_pct": 0.408,
+    "drives_36": 7.3,
+    "drive_pts_36": 4.1
+  },
+  {
+    "name": "Cooper Flagg",
+    "minutes": 2344,
+    "ra_fga": 330,
+    "ra_fgm": 217,
+    "ra_fg_pct": 0.658,
+    "ra_fga_36": 5.07,
+    "drives": 894,
+    "drive_pts": 635,
+    "drive_fg_pct": 0.492,
+    "drives_36": 13.7,
+    "drive_pts_36": 9.8
+  }
+]
