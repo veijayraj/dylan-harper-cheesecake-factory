@@ -428,3 +428,104 @@ button.dot:focus-visible {
     margin-bottom: 6px;
   }
 }
+
+/* ── Data tables ─────────────────────────────────────────── */
+
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+  background: var(--parchment);
+  border: 1px solid var(--border);
+}
+
+.data-table th,
+.data-table td {
+  padding: 9px 10px;
+}
+
+.data-table thead th {
+  background: var(--dark2);
+  color: var(--sand);
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  border-bottom: 1px solid var(--border);
+  text-align: left;
+}
+
+.data-table thead .tbl-group {
+  padding: 10px 12px;
+  background: var(--dark3);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+}
+
+.data-table thead .tbl-sorted {
+  color: var(--gold);
+  font-weight: 700;
+}
+
+.data-table td {
+  border-bottom: 1px solid var(--border);
+  color: var(--dark2);
+}
+
+.data-table tr:last-child td {
+  border-bottom: none;
+}
+
+.data-table .num {
+  text-align: right;
+  font-family: 'Barlow Condensed', sans-serif;
+}
+
+.data-table .featured-row {
+  background: rgba(139, 74, 51, 0.08);
+}
+
+.data-table .featured-row .name {
+  font-weight: 500;
+  color: var(--rust);
+}
+
+.data-table .featured-row .num {
+  color: var(--dark);
+}
+
+.data-table .featured-row .num.accent {
+  font-weight: 600;
+  color: var(--rust);
+}
+
+/* ── Slide + typography modifiers ────────────────────────── */
+
+.slide--top {
+  justify-content: flex-start;
+  padding-top: 12px;
+}
+
+.headline--sm {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.stat-label {
+  font-size: 13px;
+  color: var(--dark3);
+  margin-bottom: 10px;
+  font-family: 'Barlow Condensed', sans-serif;
+  letter-spacing: 0.06em;
+}
+
+.metrics--sm {
+  max-width: 400px;
+}
+
+/* ── Legend swatches ─────────────────────────────────────── */
+
+.swatch--primary  { background: var(--dark); }
+.swatch--secondary { background: var(--gold); }

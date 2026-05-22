@@ -284,21 +284,13 @@ function buildRaTable(rookies) {
     .filter(r => r.name !== 'Cooper Flagg')
     .sort((a, b) => b.ra_fga_36 - a.ra_fga_36);
 
-  body.innerHTML = sorted.map((r, i) => {
-    const isHarper = r.name === 'Dylan Harper';
-    const isLast   = i === sorted.length - 1;
-    const border   = isLast ? '' : 'border-bottom:1px solid var(--border);';
-    const rowBg    = isHarper ? 'background:rgba(139,74,51,0.08);' : '';
-
-    const nameStyle  = `padding:9px 10px;${border}${isHarper ? 'font-weight:500;color:var(--rust);' : 'color:var(--dark2);'}`;
-    const valStyle   = `padding:9px 10px;${border}text-align:right;font-family:'Barlow Condensed',sans-serif;${isHarper ? 'color:var(--dark);' : 'color:var(--dark2);'}`;
-    const accentStyle = `padding:9px 10px;${border}text-align:right;font-family:'Barlow Condensed',sans-serif;${isHarper ? 'font-weight:600;color:var(--rust);' : 'color:var(--dark2);'}`;
-
-    return `<tr style="${rowBg}">
-      <td style="${nameStyle}">${r.name}</td>
-      <td style="${valStyle}">${r.ra_fga}</td>
-      <td style="${accentStyle}">${r.ra_fga_36.toFixed(2)}</td>
-      <td style="${valStyle}">${(r.ra_fg_pct * 100).toFixed(1)}%</td>
+  body.innerHTML = sorted.map(r => {
+    const featured = r.name === 'Dylan Harper';
+    return `<tr${featured ? ' class="featured-row"' : ''}>
+      <td class="name">${r.name}</td>
+      <td class="num">${r.ra_fga}</td>
+      <td class="num${featured ? ' accent' : ''}">${r.ra_fga_36.toFixed(2)}</td>
+      <td class="num">${(r.ra_fg_pct * 100).toFixed(1)}%</td>
     </tr>`;
   }).join('');
 }
@@ -311,21 +303,13 @@ function buildDrivesTable(rookies) {
     .filter(r => r.name !== 'Cooper Flagg')
     .sort((a, b) => b.drive_fg_pct - a.drive_fg_pct);
 
-  body.innerHTML = sorted.map((r, i) => {
-    const isHarper = r.name === 'Dylan Harper';
-    const isLast   = i === sorted.length - 1;
-    const border   = isLast ? '' : 'border-bottom:1px solid var(--border);';
-    const rowBg    = isHarper ? 'background:rgba(139,74,51,0.08);' : '';
-
-    const nameStyle   = `padding:9px 10px;${border}${isHarper ? 'font-weight:500;color:var(--rust);' : 'color:var(--dark2);'}`;
-    const valStyle    = `padding:9px 10px;${border}text-align:right;font-family:'Barlow Condensed',sans-serif;${isHarper ? 'color:var(--dark);' : 'color:var(--dark2);'}`;
-    const accentStyle = `padding:9px 10px;${border}text-align:right;font-family:'Barlow Condensed',sans-serif;${isHarper ? 'font-weight:600;color:var(--rust);' : 'color:var(--dark2);'}`;
-
-    return `<tr style="${rowBg}">
-      <td style="${nameStyle}">${r.name}</td>
-      <td style="${valStyle}">${r.drives_36}</td>
-      <td style="${accentStyle}">${r.drive_pts_36}</td>
-      <td style="${valStyle}">${(r.drive_fg_pct * 100).toFixed(1)}%</td>
+  body.innerHTML = sorted.map(r => {
+    const featured = r.name === 'Dylan Harper';
+    return `<tr${featured ? ' class="featured-row"' : ''}>
+      <td class="name">${r.name}</td>
+      <td class="num">${r.drives_36}</td>
+      <td class="num">${r.drive_pts_36}</td>
+      <td class="num${featured ? ' accent' : ''}">${(r.drive_fg_pct * 100).toFixed(1)}%</td>
     </tr>`;
   }).join('');
 }
